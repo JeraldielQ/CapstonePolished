@@ -1,0 +1,55 @@
+/* BookDetails.css */
+.book-details-container {
+  min-height: 80vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.book-details-content {
+  width: 100%;
+  max-width: 800px;
+}
+
+.book-details-header {
+  text-align: center;
+}
+
+.title {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.thumbnail {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.book-details-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.book-details-section {
+  margin-bottom: 20px;
+}
+
+.description {
+  white-space: pre-line; 
+}
+
+.go-back-button {
+  padding: 10px;
+  background: #3EB489; 
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.go-back-button:hover {
+  background: #368874; 
+}
